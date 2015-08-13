@@ -10,8 +10,7 @@ public class Esfera : MonoBehaviour {
 		rb = GetComponent<Rigidbody>();	
 	}
 	void FixedUpdate() {
-		//float moveHorizontal = Input.GetAxis ("Horizontal");
-		//float moveVertical = Input.GetAxis ("Vertical");
+	
 		
 		float moveHorizontal = Input.acceleration.x*speed;
 		float moveVertical = Input.acceleration.y*speed;

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Nebu : MonoBehaviour {
 
+	
+
    public void ChangeToScene(int sceneToChangeTo){
 
 		Application.LoadLevel ("Game");
@@ -23,8 +25,8 @@ public class Nebu : MonoBehaviour {
 	}
 	public void ChangeToScene4(int sceneToChangeTo4){
 		 
-		Application.LoadLevel ("Game 1");
-		Time.timeScale = 1;
+		Application.LoadLevel ("Niveles");
+
 	}
 	public void ChangeToSceneL1(int sceneToChangeToL1){
 		

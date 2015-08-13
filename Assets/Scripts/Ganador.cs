@@ -41,6 +41,7 @@ public class Ganador : MonoBehaviour {
 			Time.timeScale = 0.0f;
 			MeshRenderer m = Obj.GetComponent<MeshRenderer> ();
 			m.enabled = true;
+
 		}
 	}
 
